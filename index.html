@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=
+    , initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+  <title>Trainer tell</title>
+</head>
+
+<body>
+  <section>
+    <div class="left-blob left_animate id="one">
+      <img src="./img/Vector.png" alt="">
+    </div>
+
+    <div class="container">
+      <div class="wrapper" >
+
+        <div class="logo-company logo_animate">
+          <a href="/">
+            <img src="./icons/logo.svg" alt="">
+
+          </a>
+
+
+
+        </div>
+        <div class="information-header header_animate">
+          <div>
+            <span id="under">Under Construction</span>
+            <span id="under-time">We're making lots of improvements and will be back soon</span>
+          </div>
+
+
+        </div>
+
+        <div class="countdown countdown_animate">
+
+          <div class="timer">
+            <div class="timer__items">
+              <div class="timer__item">
+                <div class="timer__days">00</div>
+                <img src="./icons/days.svg" alt="">
+              </div>
+              <div class="timer__item">
+                <div class="timer__hours">00</div>
+                <img src="./icons/hours.svg" alt="">
+              </div>
+              <div class="timer__item">
+                <div class="timer__minutes">00</div>
+                <img src="./icons/minutes.svg" alt="">
+              </div>
+              <div class="timer__item">
+                <div class="timer__seconds">00</div>
+                <img src="./icons/seconds.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="check-event event_animate">
+          <p>Check our event page when you wait:</p>
+          <button onclick="window.location.href = 'https://w3docs.com';" class="btn"><span>Go to the event &#8594</span>
+          </button>
+
+        </div>
+      </div>
+    </div>
+    <div class="right-blob right_animate">
+      <img src="./img/Vector2.png" alt="">
+    </div>
+
+
+  </section>
+  <section>
+    <footer class="footer">
+
+      <form id="form" action="#">
+        <div class="inputBox">
+          <input type="text" id="email" onkeyup="validate()" placeholder="Enter your Email and get notified">
+          <span class="indicator strelka_a">&#8594</span>
+
+        </div>
+      </form>
+      <a href="#page-2" class="to-top"> Other events</a>
+    </footer>
+
+  </section>
+
+
+  <section class="accordion__section">
+    <div id="page-2" class="logo_animate_under scroll-page"  > <span id="under">All Events</span></div>
+    <div class="carus">
+      <div class="accordion">
+        <div class="img-container active">
+          <div class="accordion__headline">
+            <h4>Hawaiian party</h4>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1614505241498-80a3ec936595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80" />
+          <div class="cover">
+            <div>01</div>
+          </div>
+          <div class="caption">
+            <div>Hawaiian party</div>
+            <div>13.02.2023</div>
+            <div><button onclick="window.location.href = '/'" class="btn-style" >More information</button></div>
+          </div>
+        </div>
+        <div class="img-container">
+          <div class="accordion__headline">
+            <h4>Mafia party</h4>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1614505241498-80a3ec936595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80" />
+          <div class="cover">
+            <div>02</div>
+          </div>
+          <div class="caption">
+            <div>Mafia party</div>
+            <div>11.11.2222</div>
+            <div><button onclick="window.location.href = '/'" class="btn-style" >More information</button></div>
+          </div>
+        </div>
+        <div class="img-container">
+          <div class="accordion__headline">
+            <h4>Party</h4>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1614505241498-80a3ec936595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80" />
+          <div class="cover">
+            <div>03</div>
+          </div>
+          <div class="caption">
+            <div>Party</div>
+            <div>12.12.2222</div>
+            <div><button onclick="window.location.href = '/'" class="btn-style" >More information</button></div>
+          </div>
+        </div>
+        <div class="img-container">
+          <div class="accordion__headline">
+            <h4>Party on the beach</h4>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1614505241498-80a3ec936595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80" />
+          <div class="cover">
+            <div>04</div>
+          </div>
+          <div class="caption">
+            <div>Party on the beach</div>
+            <div>12.12.2022</div>
+            <div><button onclick="window.location.href = '/'" class="btn-style" >More information</button></div>
+          </div>
+        </div>
+        <div class="img-container">
+          <div class="accordion__headline">
+            <h4>Home Security</h4>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1614505241498-80a3ec936595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80" />
+          <div class="cover">
+            <div>05</div>
+          </div>
+          <div class="caption">
+            <div>Home Security</div>
+            <div>17.12.3004</div>
+            <div><button onclick="window.location.href = '/'" class="btn-style" >More information</button></div>
+          </div>
+        </div>
+        <div class="img-container">
+          <div class="accordion__headline">
+            <h4>Party on the beach</h4>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1614505241498-80a3ec936595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80" />
+          <div class="cover">
+            <div>06</div>
+          </div>
+          <div class="caption">
+            <div>Party on the beach</div>
+            <div>13.02.2022</div>
+            <div><button onclick="window.location.href = '/'" class="btn-style" >More information</button></div>
+          </div>
+        </div>
+        <div class="img-container">
+          <div class="accordion__headline">
+            <h4>Party on the beach</h4>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1614505241498-80a3ec936595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80" />
+          <div class="cover">
+            <div>07</div>
+          </div>
+          <div class="caption">
+            <div>Party on the beach</div>
+            <div>23.03.2020</div>
+            <div><button onclick="window.location.href = '/'" class="btn-style" >More information</button></div>
+          </div>
+        </div>
+        <div class="img-container">
+          <div class="accordion__headline">
+            <h4>Party on the beach</h4>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1614505241498-80a3ec936595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80" />
+          <div class="cover">
+            <div>08</div>
+          </div>
+          <div class="caption">
+            <div>Party on the beach</div>
+            <div>03.05.2022</div>
+            <div><button onclick="window.location.href = '/'" class="btn-style" >More information</button></div>
+          </div>
+        </div>
+        <div class="img-container">
+          <div class="accordion__headline">
+            <h4>Party on the beach</h4>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1614505241498-80a3ec936595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80" />
+          <div class="cover">
+            <div>09</div>
+          </div>
+          <div class="caption">
+            <div>Party on the beach</div>
+            <div>03.05.2023</div>
+            <div><button onclick="window.location.href = '/'" class="btn-style" >More information</button></div>
+          </div>
+        </div>
+        <div class="img-container">
+          <div class="accordion__headline">
+            <h4>Home Security</h4>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1614505241498-80a3ec936595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80" />
+          <div class="cover">
+            <div>10</div>
+          </div>
+          <div class="caption">
+            <div>Party on the beach</div>
+            <div>04.03.2022</div>
+            <div><button onclick="window.location.href = '/'" class="btn-style" >More information</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  
+
+
+
+</body>
+
+
+<script defer src="/js/accordion.js"> </script>
+<script defer src="/js//time.js"> </script>
+<script defer src="/js/validation.js"> </script>
+
+</html>
